@@ -1,0 +1,67 @@
+#
+# vendor.prop for m1721
+#
+
+# Camera
+persist.camera.mct.debug=0
+persist.camera.iface.logs=0
+persist.camera.imglib.logs=0
+persist.camera.isp.clock.optmz=0
+persist.camera.isp.debug=0
+persist.camera.sensor.debug=0
+persist.camera.stats.test=5
+
+# CNE
+persist.vendor.mwqem.enable=1
+
+# Display
+ro.vendor.display.cabl=2
+vendor.display.disable_skip_validate=1
+vendor.gralloc.enable_fb_ubwc=1
+
+# DPM
+persist.vendor.dpmhalservice.enable=1
+
+# DRM
+drm.service.enabled=true
+
+# FM
+vendor.hw.fm.init=0
+
+# FRP
+ro.frp.pst=/dev/block/bootdevice/by-name/config
+
+# Media
+debug.stagefright.omx_default_rank=0
+vendor.vidc.disable.split.mode=1
+
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
+
+# Radio
+persist.vendor.radio.add_power_save=1
+persist.vendor.radio.hw_mbn_update=0
+
+# Radio (IMS)
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
+# Recovery
+persist.vendor.recovery_update=false
+
+# Time Services
+persist.backup.ntpServer=0.pool.ntp.org
+
+# TCP
+net.tcp.2g_init_rwnd=10
+
+# USB
+persist.vendor.usb.config.extra=none
+
+# Wi-Fi
+wifi.interface=wlan0
+ro.telephony.iwlan_operation_mode=legacy
+
+# Wi-Fi Display
+persist.sys.wfd.virtual=0
